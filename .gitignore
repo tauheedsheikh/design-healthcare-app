@@ -7,6 +7,9 @@ out-tsc/
 
 # Angular cache
 .angular/
+angular.json
+package-lock.json
+package.json
 
 # Logs
 *.log
