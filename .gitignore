@@ -71,6 +71,12 @@ Thumbs.db
 # Ignore VS Code settings
 .vscode/
 
+# Explicitly ignore these files
+.editorconfig
+tsconfig.json
+tsconfig.app.json
+tsconfig.spec.json
+
 # Ignore public folder (if not needed)
 public/
 
