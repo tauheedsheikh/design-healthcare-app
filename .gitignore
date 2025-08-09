@@ -46,3 +46,34 @@ list.todo
 package-lock.json
 /.angular
 
+# ------------------------------
+
+# Ignore node modules
+node_modules/
+
+# Ignore build outputs
+dist/
+out-tsc/
+
+# Ignore Angular cache
+.angular/
+
+# Ignore environment-specific files (optional)
+src/environments/
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore public folder (if not needed)
+public/
+
+# Ignore everything except src
+/*
+!.gitignore
