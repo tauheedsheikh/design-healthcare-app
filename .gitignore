@@ -1,88 +1,29 @@
-
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
-
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-
-# System Files
-.DS_Store
-Thumbs.db
-list.todo
-package-lock.json
-/.angular
-
-# ------------------------------
-
-# Ignore node modules
+# Dependencies
 node_modules/
 
-# Ignore build outputs
+# Build output
 dist/
 out-tsc/
 
-# Ignore Angular cache
+# Angular cache
 .angular/
 
-# Ignore environment-specific files (optional)
-src/environments/
-
-# Ignore logs
+# Logs
 *.log
 
-# Ignore system files
+# System files
 .DS_Store
 Thumbs.db
 
-# Ignore VS Code settings
+# IDE settings
 .vscode/
+.idea/
 
-# Ignore these config files
-.editorconfig
-.tsconfig.json
-.tsconfig.app.json
-.tsconfig.spec.json
-
-# Ignore public folder (if not needed)
-public/
-
-# Coverage
+# Test coverage
 coverage/
 
-# Ignore everything except src
-/*
-!.gitignore
+# Ignore specific config files
+.editorconfig
+tsconfig.json
+tsconfig.app.json
+tsconfig.spec.json
