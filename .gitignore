@@ -7,9 +7,7 @@ out-tsc/
 
 # Angular cache
 .angular/
-angular.json
-package-lock.json
-package.json
+
 
 # Logs
 *.log
@@ -22,6 +20,7 @@ Thumbs.db
 .vscode/
 .idea/
 
+
 # Test coverage
 coverage/
 
@@ -30,3 +29,8 @@ coverage/
 tsconfig.json
 tsconfig.app.json
 tsconfig.spec.json
+
+# Skip JSON config files
+angular.json
+package.json
+package-lock.json
